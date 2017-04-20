@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/gmSearch"
+              auth="Container"
+              type="javax.sql.DataSource"
+              initialSize="5"
+              maxTotal="10"
+              maxIdle="10"
+              maxWaitMillis="5000"
+              username="root"
+              password="1234567890"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/gmSearch?serverTimezone=Asia/Hong_Kong&amp;useUnicode=true&amp;characterEncoding=UTF-8"
+    />
+</Context>
